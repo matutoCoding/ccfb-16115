@@ -1,0 +1,21 @@
+{
+  "name": "mine-restore-3d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "矿山复绿三维巡查与治理设计系统 (TypeScript + WebGPU)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.51",
+    "playwright": "^1.65.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
